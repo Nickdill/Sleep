@@ -79,6 +79,8 @@ a {
 .content {
     margin: 60px;
     padding: 40px;
+    color: white;
+    line-height: 24px;
 }
 .content-title {
     text-align: center;
