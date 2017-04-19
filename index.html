@@ -1,6 +1,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
         <script type="text/javascript"> (function(){ var surge = document.createElement('script'); surge.type = 'text/javascript'; surge.async = true; surge.src = 'http://www.usersurge.com/251900525/usersurge.js'; (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(surge); })();</script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -16,55 +18,85 @@
     <body>
         <div class="navbar">
             <div class="nav-title">Sleep Better</div>
-            <div class="nav-item">Basics</div>
-            <div class="nav-item">Deprivation</div>
-            <div class="nav-item">Memory</div>
-            <div class="nav-item">Dreams</div>
+            <a href="#basics"><div class="nav-item">Basics</div></a>
+            <a href="#benefits"><div class="nav-item">Benefits</div></a>
+            <a href="#deprivation"><div class="nav-item">Deprivation</div></a>
+            <a href="#memory"><div class="nav-item">Memory</div></a>
+            <a href="">
+                <div class="nav-btn">How much do you sleep?</div>
+            </a>
         </div>
-        <div class="landing">
-            <div class="content-title">
-                <h1>Sleep Matters</h1>
+        <div class="main">
+            <div class="landing">
+                <div class="landing-title">
+                    Sleep really matters.
+                </div>
+                <div class="landing-content">
+                </div>
+                <div class="box">
+                    <div class="interact">Benefits of Sleep</div>
+                    <div class="interact">Sleep Deprivation</div>
+                    <div class="interact">Sleep & Memory</div>
+                </div>
             </div>
-            <div class="content">
-                You probably don't get enough sleep. In fact, most people don't. 
+            <a name="basics"></a>
+            <div class="container-dark">
+                <div class="content-title text">
+                    <h1>Sleep Basics</h1>
+                </div>
+                <div class="content text">
+                    Circadian Rhythm Reasons: - Night is cold and helps conserve energy and prevents sleep - Predators only eat during the day when prey is awake. Zeitgebers - "time giver”, sets natural clock Cues for sleep Endogenous rhythm is roughly 24 hours. - Endogenous: internal system within Declarative memory, is performing tasks and remembering hard facts etc.
+                    <br>
+                    Sleep stages wake nrem sws rem and things about each.
+                </div>
             </div>
-        </div>
-        <div class="container-dark">
-            <div class="content-title">
-                <h1>Sleep Basics</h1>
+            <a name="benefits"></a>
+            <div class="container">
+                <div class="content-title text">
+                    <h1>Sleep Benefits</h1>
+                </div>
+                <div class="content text">
+                    Athletes, consolidates different types of memory in dif stages of sleep.
+                </div>
             </div>
-            <div class="content">
-                Circadian Rhythm Reasons: - Night is cold and helps conserve energy and prevents sleep - Predators only eat during the day when prey is awake. Zeitgebers - "time giver”, sets natural clock Cues for sleep Endogenous rhythm is roughly 24 hours. - Endogenous: internal system within Declarative memory, is performing tasks and remembering hard facts etc.
-                <br>
-                Sleep stages wake nrem sws rem and things about each.
+            <a name="deprivation"></a>
+            <div class="container-dark">
+                <div class="content-title text">
+                    <h1>Sleep Deprivation</h1>
+                </div>
+                <div class="content text">
+                    Circadian Rhythm Reasons: - Night is cold and helps conserve energy and prevents sleep - Predators only eat during the day when prey is awake. Zeitgebers - "time giver”, sets natural clock Cues for sleep Endogenous rhythm is roughly 24 hours. - Endogenous: internal system within Declarative memory, is performing tasks and remembering hard facts etc.
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="content-title">
-                <h1>Sleep Benefits</h1>
+            <a name="memory"></a>
+            <div class="container-dark">
+                <div class="content-title text">
+                    <h1>Sleep and Memory</h1>
+                </div>
+                <div class="content text">
+                    Circadian Rhythm Reasons: - Night is cold and helps conserve energy and prevents sleep - Predators only eat during the day when prey is awake. Zeitgebers - "time giver”, sets natural clock Cues for sleep Endogenous rhythm is roughly 24 hours. - Endogenous: internal system within Declarative memory, is performing tasks and remembering hard facts etc.
+                </div>
             </div>
-            <div class="content">
-                Athletes, consolidates different types of memory in dif stages of sleep.
-            </div>
-        </div>
-         <div class="container-dark">
-            <div class="content-title">
-                <h1>Sleep Deprivation</h1>
-            </div>
-            <div class="content">
-                Circadian Rhythm Reasons: - Night is cold and helps conserve energy and prevents sleep - Predators only eat during the day when prey is awake. Zeitgebers - "time giver”, sets natural clock Cues for sleep Endogenous rhythm is roughly 24 hours. - Endogenous: internal system within Declarative memory, is performing tasks and remembering hard facts etc.
-            </div>
-        </div>
-        <div class="container-dark">
-            <div class="content-title">
-                <h1>Sleep and Memory</h1>
-            </div>
-            <div class="content">
-                Circadian Rhythm Reasons: - Night is cold and helps conserve energy and prevents sleep - Predators only eat during the day when prey is awake. Zeitgebers - "time giver”, sets natural clock Cues for sleep Endogenous rhythm is roughly 24 hours. - Endogenous: internal system within Declarative memory, is performing tasks and remembering hard facts etc.
-            </div>
-        </div>
-        <div class="footer">
+            <div id="disqus_thread"></div>
+<script>
 
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://sleepbetter-1.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         </div>
     </body>
 </html>
