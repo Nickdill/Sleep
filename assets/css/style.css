@@ -63,8 +63,12 @@ a {
 }
 .landing-content {
     padding-bottom: 60px;
-    font-size: 18px;
-    padding-top: 20px;
+    font-size: 24px;
+    padding-top: 100px;
+}
+.rangebar {
+    padding-top: 100px;
+    padding-bottom: 140px;
 }
 .container {
 }
@@ -103,10 +107,7 @@ a {
 }
 
 
-.rangebar {
-    padding-top: 60px;
-    padding-bottom: 80px;
-}
+
 input[type=range] {
   -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
   width: 60%; /* Specific width is required for Firefox. */
@@ -211,4 +212,13 @@ input[type=range]::-ms-fill-upper {
 }
 input[type=range]:focus::-ms-fill-upper {
   background: #F1C40F;
+}
+
+
+
+
+
+#disqus_thread {
+    width: 80%;
+    margin: auto;
 }
