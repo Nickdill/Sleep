@@ -22,7 +22,7 @@ a {
     left: 0px;
     background: white;
     width: 100%;
-    box-shadow: 0px 3px 0px rgba(0,0,0,0.05);
+    box-shadow: 0px 3px 0px #E8EAED;
 }
 .nav-btn {
     position: fixed;
