@@ -79,8 +79,9 @@ a {
 .content {
     margin: 60px;
     padding: 40px;
-    color: white;
+    color: rgba(255,255,255,0.7);
     line-height: 24px;
+    font-weight: 100;
 }
 .content-title {
     text-align: center;
