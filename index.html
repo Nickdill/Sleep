@@ -46,6 +46,27 @@
                         <script>                
                             function updateValue(value) {
                                 $('.sleepvalue').html(value);
+                                if (value > 6) {
+                                    $('.content-1').html(
+                                        "You get " + value + " hours of sleep a night which is a healthy amount. Try to maintain this amount of sleep, and keep in mind the information below."
+                                    );
+                                    $('.content-2').html(
+                                        "You tend to sleep a healthy amount, so don't be surprised if you feel a little more creative than some of your sleep deprived peers."
+                                    );
+                                    $('.content-3').html(
+                                        " You are not as much at risk with your current amount of sleep."
+                                    );
+                                } else {
+                                    $('.content-1').html(
+                                        "As someone who gets " + value + " hours of sleep a night, this information may be very critical to you."
+                                    );
+                                    $('.content-2').html(
+                                        "You tend to be sleep deprived, which you may or may not notice or may be used to. However, if you improve your sleep you will see many positive benefits and your brain will thank you!"
+                                    );
+                                    $('.content-3').html(
+                                        " This might include you."
+                                    );
+                                }
                             };
                         </script>
                     <input class="" onchange="updateValue(this.value);"
@@ -68,6 +89,8 @@
                     <h1>Sleep Basics</h1>
                 </div>
                 <div class="content">
+                    <div class="content-1"></div>
+                    <br>
                     Sleep is controlled by a roughly 90 minute cycle, that goes back and forth between REM 
                     (Rapid Eye Movement) and NREM (Non-Rapid Eye Movement) sleep. A large reason that contributes to people
                     waking up tired is their misunderstanding of this cycle and how and what sleep does overall.
@@ -89,8 +112,7 @@
                     used by many people daily. Melatonin pills however are not a good solution to sleep disorders, as your
                     body naturally secretes it, and therefore will secrete less and less naturally as you become more reliant.
                     Melatonin is instead meant to aid those suffering the affects of jet lag, or those who need to adjust their 
-                    biological clock. 
-                    
+                    biological clock.
                 </div>
             </div>
             <a name="benefits"></a>
@@ -114,8 +136,9 @@
                     In his sleep he dreamed of a different swing. He tried it out the next day, and then he shot a
                     65 and 68 over the next two days.
                     <br><br>
-                    So it can be difficult to understand how this process works, but sleep has seen the creation of many
+                    It can be difficult to understand how this process works, but sleep has seen the creation of many
                     creative ideas.
+                    <div class="content-2"></div>
                 </div>
             </div>
             <a name="deprivation"></a>
@@ -124,8 +147,8 @@
                     <h1>Sleep Deprivation</h1>
                 </div>
                 <div class="content text">
-                    Many people are used to sleeping minimal amounts every night, and do not notice any consequences.
-                    However, anything less than 7 or 8 hours can lead to serious consequences, and those who pull 
+                    Many people are used to sleeping minimal amounts every night, and do not notice any consequences. 
+                    <span class="content-3"></span> Anything less than 7 or 8 hours can lead to serious consequences, and those who pull 
                     all-nighters or those who pull all-nighters multiple nights in a row must be made aware of the 
                     unseen damage they are doing to themselves.
                     <br><br>
@@ -137,7 +160,8 @@
                     significantly greater risk of diabetes. Additonally, subjects who do not sleep a healthy amount 
                     have altered amounts of Leptin and Ghrelin, hormones that control hunger. This means if you don't 
                     get full sleep not only are you risking cancer, sickness, and diabetes, but you will probably 
-                    gain weight as well. 
+                    gain weight as well.
+                   
                 </div>
             </div>
             <a name="memory"></a>
@@ -161,6 +185,7 @@
                     many studies.
                 </div>
             </div>
+            <img src="assets/images/sleep2.jpg" alt="" width="100%">
         </div>
         <a name="discuss"></a>
         <div id="disqus_thread"></div>
